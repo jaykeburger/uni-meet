@@ -4,20 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-    <!--
-    TODO: change background to background.png
-    android:background="@drawable/ic_launcher_background"
-    -->
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/sign_in"
         android:text="Sign In"
         android:textColor="@color/black"
-        android:textSize="35dp"
+        android:textSize="45dp"
         android:textStyle="bold"
-        android:layout_margin="50dp"
+        android:layout_margin="70dp"
         android:gravity="center"/>
 
     <EditText
@@ -25,7 +23,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/username"
         android:layout_below="@id/sign_in"
-        android:background="#3049"
+        android:background="#ABFFFFFF"
         android:hint="Username"
         android:layout_margin="10dp"
         android:padding="20dp"
@@ -37,7 +35,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/password"
         android:layout_below="@id/username"
-        android:background="#3049"
+        android:background="#ABFFFFFF"
         android:hint="Password"
         android:layout_margin="10dp"
         android:padding="20dp"
@@ -62,16 +60,18 @@
         android:layout_below="@id/login_button"
         android:text="Forgot password"
         android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"/>
+        android:layout_margin="0dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/newuser"
-        android:layout_below="@id/forgotpassword"
+        android:textColor="#3F51B5"
         android:text="New user"
+        android:textSize="15dp"
         android:layout_centerHorizontal="true"
-        android:layout_margin="10dp"/>
+        android:layout_alignParentBottom= "true"
+        android:layout_margin="20dp"/>
 
 
 </RelativeLayout>
