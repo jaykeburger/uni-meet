@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/sign_in"
         android:text="Sign In"
+        android:typeface="monospace"
         android:textColor="@color/black"
         android:textSize="45dp"
         android:textStyle="bold"
