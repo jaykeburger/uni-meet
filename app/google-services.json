@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "295893389700",
+    "project_id": "unimeet-f8049",
+    "storage_bucket": "unimeet-f8049.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295893389700:android:c4e6d58a314b6cc5008dd1",
+        "android_client_info": {
+          "package_name": "com.example.unimeet3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295893389700-v7duj7s525qgvmhjneel50ecfb07it4l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZNAws4fnAb85blbYSwg2sDYAiqQ5xGQA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295893389700-v7duj7s525qgvmhjneel50ecfb07it4l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
