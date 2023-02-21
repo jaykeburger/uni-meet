@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         TextView username = (TextView) findViewById(R.id.username); //instance of textview
         TextView password = (TextView) findViewById(R.id.password); //instance of password
         TextView new_user = (TextView) findViewById(R.id.newuser); //instance of newuser
@@ -54,5 +55,6 @@ public class MainActivity extends AppCompatActivity {
                 //TODO: REDIRECT TO FORGOT PASSWORD PAGE
             }
         });
+
     }
 }
