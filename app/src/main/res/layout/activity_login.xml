@@ -78,6 +78,4 @@
         android:text="New user"
         android:textColor="#3F51B5"
         android:textSize="15sp" />
-
-
 </RelativeLayout>
