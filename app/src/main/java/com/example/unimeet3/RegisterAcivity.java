@@ -27,6 +27,7 @@ public class RegisterAcivity extends AppCompatActivity {
     TextView login_user = (TextView) findViewById(R.id.login); //instance of newuser
 
     MaterialButton register_button = (MaterialButton) findViewById(R.id.register_button); //instance of login_button
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
