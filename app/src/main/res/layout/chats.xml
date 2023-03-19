@@ -3,4 +3,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/text_in_bubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hi how are you"
+        android:background="@drawable/bubble"
+        android:paddingEnd="53dp"
+        android:paddingStart="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
