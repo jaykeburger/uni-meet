@@ -1,6 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    \
+
+    <TextView
+        android:id="@+id/text_in_bubble5"
+        android:layout_width="227dp"
+        android:layout_height="39dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Asian Business Student Association"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/text_in_bubble4"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Cs Girls"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="182dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <TextView
+        android:id="@+id/text_in_bubble3"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Code Coogs"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <TextView
+        android:id="@+id/text_in_bubble2"
+        android:layout_width="169dp"
+        android:layout_height="40dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Mathematics"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="134dp"
+        android:layout_height="131dp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="64dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/text_in_bubble"
+        android:layout_width="169dp"
+        android:layout_height="40dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Computer Science"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="115dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="57dp" />
+
+    <EditText
+        android:id="@+id/PersonAge"
+        android:layout_width="29dp"
+        android:layout_height="46dp"
+        android:text="20"
+        tools:layout_editor_absoluteX="351dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <EditText
+        android:id="@+id/Orgs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Organizations"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="249dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
