@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">UniMeet</string>
+    <string name="type_a_message">Type a Message...</string>
 </resources>
