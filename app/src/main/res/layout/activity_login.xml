@@ -19,8 +19,8 @@
         android:layout_margin="70dp"
         android:gravity="center"/>
 
-    <EditText
-        android:id="@+id/username"
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/sign_in"
@@ -34,18 +34,21 @@
         android:hint="Username"
         android:padding="20dp" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/password"
-        android:layout_below="@id/username"
+        android:layout_below="@id/login"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:background="#ABFFFFFF"
-        android:hint="Password"
-        android:layout_margin="10dp"
-        android:padding="20dp"
         android:drawableLeft="@drawable/ic_baseline_lock_24"
         android:drawablePadding="20dp"
-        android:inputType="textPassword"/>
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="20dp" />
 
     <com.google.android.material.button.MaterialButton
         android:layout_width="wrap_content"
@@ -65,6 +68,12 @@
         android:text="Forgot password"
         android:layout_centerHorizontal="true"
         android:layout_margin="0dp"/>
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
     <TextView
         android:id="@+id/newuser"
