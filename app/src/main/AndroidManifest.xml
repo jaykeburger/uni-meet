@@ -38,6 +38,7 @@
         <meta-data
             android:name="com.google.android.actions" />
 
+        <!--
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -46,6 +47,8 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+        -->
+
     </application>
 
 </manifest>
