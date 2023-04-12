@@ -11,18 +11,18 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Material3.Light"
+        android:theme="@style/Theme.Unimeet3"
         tools:targetApi="31">
         <activity
             android:name=".Registration"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
-                android:value="" />
+                android:value=""
+                />
         </activity>
         <activity
             android:name=".Login"
-            android:theme="@style/Theme.Material3.Light"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,7 +36,8 @@
         </activity>
 
         <meta-data
-            android:name="com.google.android.actions" />
+            android:name="com.google.android.actions"
+            android:value=""/>
 
         <!--
         <activity
@@ -48,7 +49,5 @@
                 android:value="" />
         </activity>
         -->
-
     </application>
-
 </manifest>
