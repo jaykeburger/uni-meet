@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/hobby4"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter hobby4"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <EditText
+        android:id="@+id/hobby6"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter hobby6"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <EditText
+        android:id="@+id/hobby1"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter hobby1"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+    <EditText
+        android:id="@+id/hobby5"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter hobby5"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <EditText
+        android:id="@+id/hobby2"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter hobby2"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+    <EditText
+        android:id="@+id/hobby3"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter hobby3"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="602dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter age"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <EditText
+        android:id="@+id/pic"
+        android:layout_width="107dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Upload pic"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <EditText
+        android:id="@+id/major"
+        android:layout_width="107dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter major"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <EditText
+        android:id="@+id/minor"
+        android:layout_width="107dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter minor"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <EditText
+        android:id="@+id/bio"
+        android:layout_width="107dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter bio"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="189dp" />
+
+    <EditText
+        android:id="@+id/org3"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter org3"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <EditText
+        android:id="@+id/org1"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter org1"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <EditText
+        android:id="@+id/org2"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter org2"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <EditText
+        android:id="@+id/class3"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter class3"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <EditText
+        android:id="@+id/class6"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter class6"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="291dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <EditText
+        android:id="@+id/class1"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter class1"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <EditText
+        android:id="@+id/class5"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter class5"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <EditText
+        android:id="@+id/class2"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter class2"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="422dp" />
+
+    <EditText
+        android:id="@+id/class4"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:hint="Enter class4"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <Button
+        android:id="@+id/upload_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="764dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

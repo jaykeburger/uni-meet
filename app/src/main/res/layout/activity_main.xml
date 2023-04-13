@@ -18,13 +18,12 @@
         android:layout_width="121dp"
         android:layout_height="43dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:text="Name"
         tools:layout_editor_absoluteX="204dp"
         tools:layout_editor_absoluteY="57dp" />
 
     <TextView
-        android:id="@+id/PersonAge"
+        android:id="@+id/age"
         android:layout_width="29dp"
         android:layout_height="46dp"
         android:text="20"
