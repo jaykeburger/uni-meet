@@ -5,13 +5,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-
-import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -47,16 +44,16 @@ public class MainActivity extends AppCompatActivity {
         final EditText hobby6 = findViewById(R.id.hobby6);
         Button update_button = findViewById(R.id.upload_button);
 
-        DAOProfileFeed dao = new DAOProfileFeed();
+        DAOProfile dao = new DAOProfile();
         update_button.setOnClickListener( v-> {
 
             String[] x = new String[6];
             String[] y = new String[6];
             String[] z = new String[6];
 
-            ProfileFeed profileFeed = new ProfileFeed(name.getText().toString(), age.getText().toString(), "", "","", "", x, y, z);
+            Profile profile = new Profile(name.getText().toString(), age.getText().toString(), "", "","", "", x, y, z);
 
-            dao.add(profileFeed).addOnSuccessListener(suc->
+            dao.add(profile).addOnSuccessListener(suc->
             {
                 Toast.makeText(this, "success", Toast.LENGTH_SHORT).show();
             }).addOnFailureListener(er -> {

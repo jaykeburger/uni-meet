@@ -1,16 +1,16 @@
 package com.example.unimeet3;
 
-public class ProfileFeed {
+public class Profile {
     private String age, bio, email, major, password, pic;
 
     private String[] classes = new String[6];
     private String[] hobbies = new String[6];
     private String[] orgs = new String[3];
 
-    public ProfileFeed() {
+    public Profile() {
 
     }
-    public ProfileFeed(String age, String bio, String email, String major, String password, String pic, String[] classes, String[] hobbies, String[] orgs) {
+    public Profile(String age, String bio, String email, String major, String password, String pic, String[] classes, String[] hobbies, String[] orgs) {
         this.age = age;
         this.bio = bio;
         this.email = email;
