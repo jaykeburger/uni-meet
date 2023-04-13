@@ -5,101 +5,307 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Yes!"
-        tools:layout_editor_absoluteX="254dp"
-        tools:layout_editor_absoluteY="597dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_dialog_email"
-        tools:layout_editor_absoluteX="339dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/ic_baseline_person_outline_24"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="203dp"
-        android:layout_height="49dp"
-        android:text="Interests:"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="212dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="166dp"
-        android:layout_height="48dp"
-        android:text="John Doe: 20"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="269dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="199dp"
-        android:layout_height="63dp"
-        android:text="Major: Computer Science"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="122dp" />
-
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="137dp"
-        android:layout_height="138dp"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="122dp"
+        android:id="@+id/profile_picture"
+        android:layout_width="134dp"
+        android:layout_height="131dp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="64dp"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="163dp"
-        android:layout_height="73dp"
-        android:text="Clubs and Organizations:"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="326dp" />
+        android:id="@+id/name"
+        android:layout_width="121dp"
+        android:layout_height="43dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="57dp" />
 
     <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="CodeCoogs"
-        android:textColor="#63F30A"
-        android:textColorHighlight="#1CF10B"
-        android:textColorHint="#4CAF50"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="27dp"
-        tools:layout_editor_absoluteY="417dp" />
+        android:id="@+id/PersonAge"
+        android:layout_width="29dp"
+        android:layout_height="46dp"
+        android:text="20"
+        tools:layout_editor_absoluteX="351dp"
+        tools:layout_editor_absoluteY="54dp" />
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="190dp"
-        android:layout_height="218dp"
-        android:text="Art, Computers, Space"
-        android:textAlignment="center"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="195dp"
-        tools:layout_editor_absoluteY="261dp" />
+        android:id="@+id/major"
+        android:layout_width="169dp"
+        android:layout_height="40dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Computer Science"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="115dp" />
 
-    <Button
-        android:id="@+id/button"
+    <TextView
+        android:id="@+id/minor"
+        android:layout_width="169dp"
+        android:layout_height="40dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Mathematics"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="163dp" />
+
+
+    <TextView
+        android:id="@+id/bio"
+        android:layout_width="362dp"
+        android:layout_height="68dp"
+        android:text="bio"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+
+    <TextView
+        android:layout_width="156dp"
+        android:layout_height="29dp"
+        android:text="Organizations"
+        android:textSize="@dimen/_15sdp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="307dp" />
+
+    <TextView
+        android:id="@+id/class2"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="COSC3340"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <TextView
+        android:id="@+id/hobby6"
+        android:layout_width="110dp"
+        android:layout_height="36dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="hobby6"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <TextView
+        android:id="@+id/hobby2"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="hobby2"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <TextView
+        android:id="@+id/org1"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Code Coogs"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/class5"
+        android:layout_width="110dp"
+        android:layout_height="36dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="COSC4377"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <TextView
+        android:id="@+id/org2"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Cs Girls"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/class3"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="COSC3340"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <TextView
+        android:id="@+id/hobbies_label"
+        android:layout_width="156dp"
+        android:layout_height="29dp"
+        android:text="Hobbies"
+        android:textSize="@dimen/_15sdp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <TextView
+        android:id="@+id/hobby3"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="hobby3"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <TextView
+        android:id="@+id/hobby1"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="hobby1"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <TextView
+        android:id="@+id/class1"
+        android:layout_width="112dp"
+        android:layout_height="36dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="COSC3360"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <TextView
+        android:id="@+id/hobbies4"
+        android:layout_width="105dp"
+        android:layout_height="33dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="hobby4"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <TextView
+        android:id="@+id/org3"
+        android:layout_width="105dp"
+        android:layout_height="33dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="ABSA"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="346dp" />
+
+    <TextView
+        android:id="@+id/class4"
+        android:layout_width="105dp"
+        android:layout_height="33dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="COSC4393"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <TextView
+        android:id="@+id/hobby5"
+        android:layout_width="110dp"
+        android:layout_height="36dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="hobby5"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <TextView
+        android:id="@+id/class6"
+        android:layout_width="110dp"
+        android:layout_height="36dp"
+        android:background="@drawable/grey_bubble"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="COSC4377"
+        android:textColor="#000000"
+        android:textSize="12dp"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <TextView
+        android:id="@+id/classes_label"
+        android:layout_width="156dp"
+        android:layout_height="29dp"
+        android:text="Classes"
+        android:textSize="@dimen/_15sdp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="No!"
-        tools:layout_editor_absoluteX="58dp"
-        tools:layout_editor_absoluteY="597dp" />
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
