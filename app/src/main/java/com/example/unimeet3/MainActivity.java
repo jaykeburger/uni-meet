@@ -47,11 +47,29 @@ public class MainActivity extends AppCompatActivity {
         DAOProfile dao = new DAOProfile();
         update_button.setOnClickListener( v-> {
 
-            String[] x = new String[6];
-            String[] y = new String[6];
-            String[] z = new String[6];
+            String[] orgs = new String[6];
+            String[] classes = new String[6];
+            String[] hobbies = new String[6];
 
-            Profile profile = new Profile(name.getText().toString(), age.getText().toString(), "", "","", "", x, y, z);
+            orgs[0] = org1.getText().toString();
+            orgs[1] = org2.getText().toString();
+            orgs[2] = org3.getText().toString();
+
+            classes[0] = class1.getText().toString();
+            classes[1] = class2.getText().toString();
+            classes[2] = class3.getText().toString();
+            classes[3] = class4.getText().toString();
+            classes[4] = class5.getText().toString();
+            classes[5] = class6.getText().toString();
+
+            hobbies[0] = hobby1.getText().toString();
+            hobbies[1] = hobby2.getText().toString();
+            hobbies[2] = hobby3.getText().toString();
+            hobbies[3] = hobby4.getText().toString();
+            hobbies[4] = hobby5.getText().toString();
+            hobbies[5] = hobby6.getText().toString();
+
+            Profile profile = new Profile(name.getText().toString(), age.getText().toString(), "","", "", classes, hobbies, orgs);
 
             dao.add(profile).addOnSuccessListener(suc->
             {
