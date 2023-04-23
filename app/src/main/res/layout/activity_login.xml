@@ -31,7 +31,7 @@
         android:background="#ABFFFFFF"
         android:drawableLeft="@drawable/ic_baseline_person_outline_24"
         android:drawablePadding="20dp"
-        android:hint="Username"
+        android:hint="University email"
         android:padding="20dp" />
 
     <com.google.android.material.textfield.TextInputEditText

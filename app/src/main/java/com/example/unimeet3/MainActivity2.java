@@ -16,7 +16,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.ktx.Firebase;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity2 extends AppCompatActivity {
     FirebaseAuth auth;
     Button button;
     Button leftbutton;
@@ -27,12 +27,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.zsample1);
+        setContentView(R.layout.zsample2);
 
         auth = FirebaseAuth.getInstance();
         button = findViewById(R.id.logout);
-        leftbutton = findViewById(R.id.leftbutton);
-        rightbutton = findViewById(R.id.rightbutton);
+        //leftbutton = findViewById(R.id.leftbutton);
+        //rightbutton = findViewById(R.id.rightbutton);
         //textview = findViewById(R.id.textview);
         user = auth.getCurrentUser();
         if(user==null) {
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             finish();
         }
-        /*
+        /*j
         else {
             textview.setText(user.getEmail());
         }
@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
+        /*
         leftbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -72,5 +73,6 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
+        */
     }
 }

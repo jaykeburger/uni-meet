@@ -10,11 +10,6 @@ public class Profile {
     public Profile() {
 
     }
-    public Profile(String age, String name) {
-        this.age = age;
-        this.name = name;
-
-    }
     public Profile(String age, String bio, String email, String major, String minor, String name, String pic, String[] classes, String[] hobbies, String[] orgs) {
         this.age = age;
         this.bio = bio;

@@ -33,7 +33,7 @@
             android:layout_marginBottom="@dimen/_15sdp"
             android:layout_marginLeft="@dimen/_15sdp"
             android:layout_marginRight="@dimen/_15sdp"
-            android:background="@drawable/guy"/>
+            android:background="@drawable/barbara"/>
 
         <TextView
             android:id="@+id/name"
@@ -44,7 +44,7 @@
             android:textSize="@dimen/_25sdp"
             android:textStyle="bold"
             android:textColor="@color/black"
-            android:text="Thomas"/>
+            android:text="Barbara"/>
 
         <TextView
             android:id="@+id/age"
@@ -55,7 +55,7 @@
             android:textSize="@dimen/_25sdp"
             android:textStyle="bold"
             android:textColor="@color/black"
-            android:text="20"/>
+            android:text="22"/>
 
         <TextView
             android:id="@+id/major"
@@ -67,7 +67,7 @@
             android:gravity="center"
             android:textSize="@dimen/_15sdp"
             android:layout_below="@id/name"
-            android:text="Computer Science"/>
+            android:text="Civil Engineering"/>
 
         <TextView
             android:id="@+id/minor"
@@ -80,7 +80,7 @@
             android:layout_marginRight="@dimen/_10sdp"
             android:gravity="center"
             android:textSize="@dimen/_15sdp"
-            android:text="Mathematics"/>
+            android:text="Physics"/>
 
     </RelativeLayout>
 
@@ -103,7 +103,7 @@
             android:layout_marginLeft="@dimen/_10sdp"
             android:layout_marginRight="@dimen/_10sdp"
             android:textSize="@dimen/_15sdp"
-            android:text="Strangers call me Thomas. My boss calls me a developer. My friends call me goofy, but you can call me your study partner. On a journey to find me."
+            android:text="Strangers call me Barbara. My boss calls me a civil engineer. My friends call me goofy, but you can call me your study partner. On a journey to find me."
             />
 
         <TextView
@@ -134,7 +134,7 @@
         <TextView
             android:id="@+id/hobbies_title"
             android:layout_below="@id/classes_title"
-            android:layout_width="@dimen/_200sdp"
+            android:layout_width="match_parent"
             android:layout_height="@dimen/_85sdp"
             android:layout_marginTop="@dimen/_10sdp"
             android:layout_marginLeft="@dimen/_10sdp"
@@ -143,36 +143,6 @@
             android:textStyle="bold"
             android:textColor="@color/black"
             android:text="Hobbies"/>
-
-        <Button
-            android:id="@+id/leftbutton"
-            android:layout_toRightOf="@id/hobbies_title"
-            android:layout_below="@id/classes_title"
-            android:layout_width="@dimen/_20sdp"
-            android:layout_height="@dimen/_85sdp"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
-            android:textSize="@dimen/_20sdp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:background="@drawable/ic_arrow_back"/>
-
-        <Button
-            android:id="@+id/rightbutton"
-            android:layout_toRightOf="@id/leftbutton"
-            android:layout_below="@id/classes_title"
-            android:layout_width="@dimen/_20sdp"
-            android:layout_height="@dimen/_85sdp"
-            android:layout_marginTop="@dimen/_10sdp"
-            android:layout_marginLeft="@dimen/_10sdp"
-            android:layout_marginRight="@dimen/_10sdp"
-            android:textSize="@dimen/_20sdp"
-            android:textStyle="bold"
-            android:textColor="@color/black"
-            android:background="@drawable/ic_baseline_arrow_forward_ios_24"/>
-
-
 
     </RelativeLayout>
 
