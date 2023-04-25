@@ -91,8 +91,8 @@
 
     <TextView
         android:id="@+id/org3"
-        android:layout_width="227dp"
-        android:layout_height="39dp"
+        android:layout_width="110dp"
+        android:layout_height="38dp"
         android:background="@drawable/grey_bubble"
         android:gravity="center"
         android:padding="10dp"
