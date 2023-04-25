@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- X shape -->
+    <item>
+        <rotate android:fromDegrees="45">
+            <shape android:shape="line">
+                <stroke android:color="#373737" android:width="3dp" />
+            </shape>
+        </rotate>
+    </item>
+
+    <item>
+        <rotate android:fromDegrees="-45">
+            <shape android:shape="line">
+                <stroke android:color="#373737" android:width="3dp" />
+            </shape>
+        </rotate>
+    </item>
+
+</layer-list>
